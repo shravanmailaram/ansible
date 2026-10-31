@@ -6,3 +6,13 @@
     debug:
       msg: "OS distro is RedHat"
     when: ansible_facts.os_family == "RedHat"
+  - name: install nginx in RedHat
+    dnf:
+      state: present
+      name: nginx
+    when: ansible_facts.os_family == "RedHat"
+  - name: install nginx in Ubuntu
+    apt:
+      state: present
+      name: nginx
+    when: ansible_facts.os_family == "Debian"
