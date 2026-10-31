@@ -12,4 +12,4 @@
   - name: print the variables
     property: "10 acres"
     debug:
-      msg: "Hi, I've got {{ property }}" from my grand father"
+      msg: "Hi, I've got {{ property }} from my grand father"
