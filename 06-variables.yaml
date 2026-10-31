@@ -10,6 +10,7 @@
       msg: "Hi, I've received {{ property }} from my grand parents"
   
   - name: print the variables
-    property: "10 acres"
+    vars:
+      property: "10 acres"
     debug:
       msg: "Hi, I've got {{ property }} from my grand father"
