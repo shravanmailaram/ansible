@@ -1,6 +1,7 @@
 - name: pring OS is RedHat or not
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: print the OS 
     debug:
