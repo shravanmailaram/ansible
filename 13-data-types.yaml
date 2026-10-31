@@ -10,7 +10,7 @@
     - Shell
     - Ansible
     - Terraform
-    more details: # dictionary/map
+    more_details: # dictionary/map
       trainer: Siva
       months: 4
     exact_duration_in_months: 4.5
