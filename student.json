@@ -1,0 +1,24 @@
+{
+    "FirstName": "Shravan",
+    "LastName": "Mailaram",
+    "DOB": "01-01-01",
+    "Addresses": [
+        {
+            "type": "Permanent",
+            "DoorNo": "74-378",
+            "StreetName": "Back Lane",
+            "City": "Hanamkonda"
+        },
+        {
+            "type": "Temporary",
+            "DoorNo": "74-378",
+            "StreetName": "Back Lane",
+            "City": "Hanamkonda"
+        }
+    ],
+    "skills": {
+        "OS": "Linux",
+        "IDE": "VSCode",
+        "CM": "Ansible"
+    }
+}

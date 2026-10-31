@@ -1,0 +1,36 @@
+- First_Name: "Shravan"
+  Last_Name: "Mailaram"
+  DOB: 01-01-01
+  # - is for list
+  addresses:
+  - type: permanent
+    DoorNo: 94-474
+    StreetName: Back Lane
+    city: Hanamkonda
+  - type: temporary
+    DoorNo: 94-474
+    StreetName: Back Lane
+    city: Hanamkonda
+  skills:
+    OS: Linux
+    IDE: VSCode
+    CM: Ansible
+
+- First_Name: "Shravan"
+  Last_Name: "Mailaram"
+  DOB: 01-01-01
+  # - is for list
+  addresses:
+  - type: permanent
+    DoorNo: 94-474
+    StreetName: Back Lane
+    city: Hanamkonda
+  - type: temporary
+    DoorNo: 94-474
+    StreetName: Back Lane
+    city: Hanamkonda
+  skills:
+    OS: Linux
+    IDE: VSCode
+    CM: Ansible
+    

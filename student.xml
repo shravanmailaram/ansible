@@ -1,0 +1,17 @@
+<Student>
+    <FirstName>Shravan</FirstName>
+    <LastName>Mailaram</LastName>
+    <DOB>01-01-01</DOB>
+    <Addresses>
+        <Address type="Temporary">
+            <DoorNo>84-747</DoorNo>
+            <StreetName>Back Lane</StreetName>
+            <City>Hanamkonda</City>
+        </Address>    
+        <Address type="Permanent">
+            <DoorNo>84-747</DoorNo>
+            <StreetName>Back Lane</StreetName>
+            <City>Hanamkonda</City>
+        </Address>
+    </Addresses>
+</Student>
