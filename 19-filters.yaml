@@ -8,6 +8,7 @@
     - Kumar
     - Mailaram
     topic: ANSIBLE
+    duration: "4"
   tasks:
   - name: print the name
     debug:
@@ -24,4 +25,6 @@
   - name: convert to lower case
     debug:
       msg: "Topic: {{ topic | lower }}"
- 
+  - name: convert string to int
+    debug:
+      msg: "Duration: {{ duration | int }}"
