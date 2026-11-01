@@ -7,6 +7,7 @@
     - Shravan
     - Kumar
     - Mailaram
+    topic: ANSIBLE
   tasks:
   - name: print the name
     debug:
@@ -19,3 +20,8 @@
   - name: convert list to string
     debug:
       msg: "Full Name is {{ names | join(' ') }}"
+
+  - name: convert to lower case
+    debug:
+      msg: "Topic: {{ topic | lower }}"
+ 
