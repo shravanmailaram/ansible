@@ -18,4 +18,4 @@
 
   - name: convert list to string
     debug:
-      msg: "Full Name is {{ names | join( ) }}"
+      msg: "Full Name is {{ names | join('') }}"
