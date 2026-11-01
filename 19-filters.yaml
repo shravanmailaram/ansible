@@ -3,6 +3,10 @@
   connection: local
   vars:
     topics: "Linux, Shell, Ansibl, Terraform, Docker"
+    names:
+    - Shravan
+    - Kumar
+    - Mailaram
   tasks:
   - name: print the name
     debug:
@@ -10,4 +14,8 @@
 
   - name: convert string to list
     debug:
-      msg: "Topics are: {{ topics | split(',') | trim}}"
+      msg: "Topics are: {{ topics | split(',') | trim }}" 
+
+  - name: convert list to string
+    debug:
+      msg: "Full Name is {{ names | join() }}"
